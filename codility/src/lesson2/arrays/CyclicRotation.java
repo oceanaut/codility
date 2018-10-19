@@ -5,24 +5,14 @@ import java.util.Arrays;
 public class CyclicRotation {
 	
 	public static int[] solution(int arr[],int K) {
-		int retA[] = new int[arr.length];
-		
-//		int shiftCount=(arr.length+K) % arr.length;
-//		if (shiftCount>0) {
-//			for (int i = 0; i < arr.length; i++) {
-//				int a=(i+K)%arr.length;
-//				retA[a]=arr[i];
-//			}
-//		}else {
-//			return arr;
-//		}
+		int retA[] = new int[arr.length];	
 		if (arr.length==0) {
 			return arr;
 		}else {
 			for (int i = 0; i < arr.length; i++) {
 			int a=(i+K)%arr.length;
 			retA[a]=arr[i];
-		}
+			}
 			
 		}
 		
