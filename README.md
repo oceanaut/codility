@@ -1,2 +1,2 @@
 # codility
-https://app.codility.com/programmers/lessons/1-iterations/
+codility in java 8
